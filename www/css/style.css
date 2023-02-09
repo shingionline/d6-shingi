@@ -21,6 +21,17 @@ h1,h2,h3 {
   border-color: #181f22 !important;
 }
 
+input {
+  margin-bottom:0.5rem !important;
+}
+
+.form-control:disabled {
+  background-color: #0f0f0f !important;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+
 ul.top-menu {
   list-style-type: none;
   margin: 0;
@@ -28,6 +39,7 @@ ul.top-menu {
   overflow: hidden;
   background-color: #324249;
   margin-bottom: 1rem !important;
+  border-radius: 5px;
 }
 
 ul.top-menu li {
@@ -56,18 +68,20 @@ button {
   color: #fff;
   border: none;
   border-radius: 5px;
+  font-size: 0.9rem !important;
+  letter-spacing: 0.1rem !important;
 }
 
 button:hover {
   background: #21b126;
 }
 
-.red {
-  font-weight: bold;
-  color: red;
+.form-control {
+  border: 1px solid #1c1c1c !important;
 }
 
-.green {
+label {
+  display: inline-block;
   font-weight: bold;
-  color: green;
+  margin: 0.5rem 0;
 }
