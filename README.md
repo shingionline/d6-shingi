@@ -1,6 +1,6 @@
 ## Instructions
 
-git clone ..........
+git clone https://github.com/shingionline/d6-shingi.git
 
 cd d6-shingi
 
