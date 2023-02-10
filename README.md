@@ -14,3 +14,7 @@ Visit http://localhost:8000
 
 Username: user
 Password: test
+
+## Screenshot
+
+![Screenshot of assignment](https://res.cloudinary.com/web900/image/upload/v1676003606/images/d6-shingi.jpg)
