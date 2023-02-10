@@ -30,7 +30,7 @@ $invoices = $stmt->fetchAll(PDO::FETCH_ASSOC);
                     <td><?php echo $invoice['invoice_date']; ?></td>
                     <td><?php echo $invoice['due_date']; ?></td>
                     <td><?php echo formatCurrency($invoice['invoice_total']); ?></td>
-            </a>
+                    </a>
                 </tr>
             <?php endforeach; ?>
         </tbody>
