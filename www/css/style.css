@@ -25,6 +25,12 @@ input {
   margin-bottom:0.5rem !important;
 }
 
+th {
+  background-color: #1c262b !important;
+  color: #fff !important;
+  font-weight:bold !important;
+}
+
 .form-control:disabled {
   background-color: #0f0f0f !important;
   color: #fff;

@@ -6,12 +6,12 @@ include('includes/header.php'); ?>
 <?php
 require('includes/menu.php');
 
-if (isset($_GET['q']) && is_numeric($_GET['q']) && $_GET['q'] >= 1 && $_GET['q'] <= 2) {
-    $q = $_GET['q'];
+if (isset($_GET['p']) && is_numeric($_GET['p']) && $_GET['p'] >= 1 && $_GET['p'] <= 3) {
+    $p = $_GET['p'];
 } else {
-    $q = 1;
+    $p = 1;
 }
 
-include('pages/page-' . $q . '.php');
+include('pages/page-' . $p . '.php');
 include('includes/footer.php');
 ?>

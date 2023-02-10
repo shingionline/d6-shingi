@@ -8,7 +8,7 @@ docker-compose up -d
 
 Visit http://localhost:8001
 
-To view the database with PHPMyAdmin:-
+To view the database with phpMyAdmin:-
 
 Visit http://localhost:8000
 
