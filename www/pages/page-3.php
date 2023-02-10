@@ -16,7 +16,7 @@ $invoice_items = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
 ?>
 
-<h5><b>Viewing invoice #<?php echo $invoice['id']; ?></b></h5>
+<h5><b>Viewing Invoice #<?php echo $invoice['id']; ?></b></h5>
 
 <div class="col-md-8 col-12">
 
@@ -67,7 +67,7 @@ $invoice_items = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 </div>
 
                 <div class="col-md-6">
-                    <?php echo $invoice_item['amount']; ?>
+                    <?php echo formatCurrency($invoice_item['amount']); ?>
                 </div>
             </div>
         <?php endforeach; ?>
@@ -77,7 +77,7 @@ $invoice_items = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <h3>Invoice Total</h3>
             </div>
             <div class="col-md-6">
-                <h3><?php echo $invoice['invoice_total']; ?></h3>
+                <h3><?php echo formatCurrency($invoice['invoice_total']); ?></h3>
             </div>
         </div>
 

@@ -1,6 +1,8 @@
 <?php 
 require_once('includes/db_connection.php');
-include('includes/header.php'); ?>
+include('includes/header.php'); 
+include('includes/functions.php');
+?>
 <h2>d6 - Shingi</h2>
 
 <?php
