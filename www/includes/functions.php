@@ -1,6 +1,6 @@
 <?php
 
-function formatCurrency($amount) : Float
+function formatCurrency($amount)
 {
     return number_format($amount, 2);
 }
